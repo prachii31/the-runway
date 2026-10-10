@@ -1,0 +1,73 @@
+
+.stylist-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.stylist-hero {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 40px;
+}
+
+.stylist-hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  margin: 12px 0;
+}
+
+.stylist-hero > p:last-child {
+  color: #777;
+  line-height: 1.7;
+}
+
+.stylist-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.stylist-form label {
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.stylist-form input,
+.stylist-form select,
+.stylist-form textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: white;
+  color: #222;
+  font: inherit;
+}
+
+.stylist-form textarea {
+  resize: vertical;
+}
+
+.stylist-note {
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+}
+
+.stylist-back {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.stylist-back a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .stylist-page {
+    padding: 36px 18px;
+  }
+}
